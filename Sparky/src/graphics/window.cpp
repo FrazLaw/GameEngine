@@ -72,6 +72,7 @@ namespace sparky {
 			}
 			return m_Keys[keycode];
 		}
+
 		bool Window::isMouseButtonPressed(unsigned int button) const
 		{
 			if (button >= MAX_BUTTONS)
